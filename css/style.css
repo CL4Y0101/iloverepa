@@ -79,9 +79,9 @@ html {
 
 section .gambar {
   display: block;
-  width: 260px;
-  max-width: 75%;
-  height: auto;
+  width: min(170px, 58vw);
+  height: min(225px, 36vh);
+  object-fit: cover;
   margin: 0 auto;
   border-radius: 10px;
 }
