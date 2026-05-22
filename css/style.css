@@ -78,6 +78,11 @@ html {
 }
 
 section .gambar {
+  display: block;
+  width: 260px;
+  max-width: 75%;
+  height: auto;
+  margin: 0 auto;
   border-radius: 10px;
 }
 
